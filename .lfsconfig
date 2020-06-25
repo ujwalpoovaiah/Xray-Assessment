@@ -1,2 +1,2 @@
 [lfs]
-url = "http://admin:APAQm9zcJgAnqM6M88hZsKNyWjE@art.local:8081/artifactory/api/lfs/gitlfs"
+url = "http://art.local:8081/artifactory/api/lfs/gitlfs"
