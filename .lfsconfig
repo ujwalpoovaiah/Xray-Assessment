@@ -1,2 +1,0 @@
-[lfs]
-url = "ssh://git@art.local:1339/artifactory/api/lfs/gitlfs-local"
