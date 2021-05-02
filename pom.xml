@@ -30,16 +30,30 @@
 		</plugins>
 	</build>
 	<dependencies>
-	<dependency>
-	    <groupId>org.apache.tika</groupId>
-	    <artifactId>tika-parsers</artifactId>
-	    <version>1.25</version>
-	</dependency>
-	<dependency>
-	<groupId>com.google.guava</groupId>
-	<artifactId>guava</artifactId>
-	<version>25.0-jre</version>
-	</dependency>
-
+		<dependency>
+		    <groupId>com.thoughtworks.xstream</groupId>
+		    <artifactId>xstream</artifactId>
+		    <version>1.4.15</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>4.1.5.RELEASE</version>
+		</dependency>
+		<dependency>
+			 <groupId>ch.qos.logback</groupId>
+			 <artifactId>logback-core</artifactId>
+			 <version>1.3.0-alpha0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>25.0-jre</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.tika</groupId>
+		    <artifactId>tika-parsers</artifactId>
+		    <version>1.25</version>
+		</dependency>
 	</dependencies>
 </project>
