@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.testing.jfrog</groupId>
 	<artifactId>testing</artifactId>
-	<version>1.0.${a}</version>
+	<version>1.0</version>
 	<packaging>war</packaging>
 	<name>testing</name>
 	<description>testing</description>
