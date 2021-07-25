@@ -31,41 +31,11 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/io.quarkus.arc/arc -->
-		<dependency>
-		    <groupId>io.quarkus.arc</groupId>
-		    <artifactId>arc</artifactId>
-		    <version>2.0.0.Final</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-apache-httpclient -->
-		<dependency>
-		    <groupId>io.quarkus</groupId>
-		    <artifactId>quarkus-apache-httpclient</artifactId>
-		    <version>2.0.0.Final</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-arc -->
-		<dependency>
-		    <groupId>io.quarkus</groupId>
-		    <artifactId>quarkus-arc</artifactId>
-		    <version>2.0.0.Final</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-bootstrap-runner -->
-		<dependency>
-		    <groupId>io.quarkus</groupId>
-		    <artifactId>quarkus-bootstrap-runner</artifactId>
-		    <version>2.0.0.Final</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-core -->
-		<dependency>
-		    <groupId>io.quarkus</groupId>
-		    <artifactId>quarkus-core</artifactId>
-		    <version>2.0.0.Final</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.quarkus/quarkus-development-mode-spi -->
-		<dependency>
-		    <groupId>io.quarkus</groupId>
-		    <artifactId>quarkus-development-mode-spi</artifactId>
-		    <version>2.0.0.Final</version>
-		</dependency>
+	<dependency>
+ 		 <groupId>org.springframework.security</groupId>
+		 <artifactId>spring-security-bom</artifactId>
+		 <version>5.2.1.RELEASE</version>
+		 <type>pom</type>
+	</dependency>
 	</dependencies>
 </project>
