@@ -31,11 +31,17 @@
 		</plugins>
 	</build>
 	<dependencies>
+	<!-- https://mvnrepository.com/artifact/javax.el/javax.el-api -->
 	<dependency>
- 		 <groupId>org.springframework.security</groupId>
-		 <artifactId>spring-security-bom</artifactId>
-		 <version>5.2.1.RELEASE</version>
-		 <type>pom</type>
+	    <groupId>javax.el</groupId>
+	    <artifactId>javax.el-api</artifactId>
+	    <version>3.0.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/javax.interceptor/javax.interceptor-api -->
+	<dependency>
+	    <groupId>javax.interceptor</groupId>
+	    <artifactId>javax.interceptor-api</artifactId>
+	    <version>1.2</version>
 	</dependency>
 	</dependencies>
 </project>
