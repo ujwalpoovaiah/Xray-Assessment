@@ -3,8 +3,8 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.testing.jfrog</groupId>
    <artifactId>testing</artifactId>
-   <version>1.0</version>
-   <packaging>war</packaging>
+   <version>2.0.6-snapshot</version>
+   <packaging>jar</packaging>
    <name>testing</name>
    <description>testing</description>
    <build>
