@@ -35,51 +35,15 @@
        <artifactId>commons-io</artifactId>
        <version>2.6</version>
    </dependency>
-      <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-to-slf4j</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-</dependency>
 <dependency>
     <groupId>com.fasterxml.woodstox</groupId>
     <artifactId>woodstox-core</artifactId>
     <version>5.1.0</version>
 </dependency>
 <dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-databind</artifactId>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-annotations</artifactId>
-</dependency>
-<dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-core</artifactId>
-</dependency>
-<dependency>
     <groupId>org.codehaus.jackson</groupId>
     <artifactId>jackson-xc</artifactId>
     <version>1.9.13</version>
-</dependency>
-<dependency>
-    <groupId>org.codehaus.jackson</groupId>
-    <artifactId>jackson-jaxrs</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.owasp.esapi</groupId>
-    <artifactId>esapi</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.apache.xmlgraphics</groupId>
-    <artifactId>batik-css</artifactId>
 </dependency>
 <dependency>
     <groupId>org.owasp.antisamy</groupId>
@@ -97,37 +61,9 @@
     <version>1.11</version>
 </dependency>
 <dependency>
-    <groupId>commons-httpclient</groupId>
-    <artifactId>commons-httpclient</artifactId>
-</dependency>
-<dependency>
-    <groupId>commons-fileupload</groupId>
-    <artifactId>commons-fileupload</artifactId>
-</dependency>
-<dependency>
-    <groupId>xerces</groupId>
-    <artifactId>xercesImpl</artifactId>
-</dependency>
-<dependency>
-    <groupId>commons-beanutils</groupId>
-    <artifactId>commons-beanutils</artifactId>
-</dependency>
-<dependency>
-    <groupId>javax.validation</groupId>
-    <artifactId>validation-api</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.webjars.bower</groupId>
-    <artifactId>angular</artifactId>
-</dependency>
-<dependency>
     <groupId>org.webjars</groupId>
     <artifactId>bootstrap</artifactId>
     <version>4.1.1</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpclient</artifactId>
 </dependency>
 <dependency>
     <groupId>org.webjars.bower</groupId>
@@ -135,11 +71,7 @@
     <version>3.4.0</version>
 </dependency>
 <!-- Testing libraries -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-test</artifactId>
-    <scope>test</scope>
-</dependency>
+
 <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-java</artifactId>
@@ -168,21 +100,6 @@
     <groupId>org.mockito</groupId>
     <artifactId>mockito-core</artifactId>
     <version>2.19.0</version>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>junit</groupId>
-    <artifactId>junit</artifactId>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.hamcrest</groupId>
-    <artifactId>hamcrest-all</artifactId>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>com.github.tomakehurst</groupId>
-    <artifactId>wiremock</artifactId>
     <scope>test</scope>
 </dependency>
    </dependencies>
