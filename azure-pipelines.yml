@@ -1,0 +1,33 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+
+- task: JFrogMaven@1
+  inputs:
+    mavenPomFile: 'pom.xml'
+    goals: 'install'
+    artifactoryResolverService: 'ujwal1'
+    targetResolveReleaseRepo: 'sand-maven-virtual'
+    targetResolveSnapshotRepo: 'maven'
+    artifactoryDeployService: 'ujwal1'
+    targetDeployReleaseRepo: 'sand-maven-virtual'
+    targetDeploySnapshotRepo: 'sand-maven-virtual'
+    collectBuildInfo: true
+    buildName: '$(Build.DefinitionName)'
+    buildNumber: '$(Build.BuildNumber)'
+    includeEnvVars: true
+- task: JFrogPublishBuildInfo@1
+  inputs:
+    artifactoryConnection: 'ujwal1'
+    buildName: '$(Build.DefinitionName)'
+    buildNumber: '$(Build.BuildNumber)'
